@@ -11,10 +11,7 @@ p{
 
 .whole{
 	display: flex;
-	height: 100vh;
-
-	overflow: hidden;
-
+	/*overflow: hidden;*/
 	padding-bottom: 0px;
 }
 
