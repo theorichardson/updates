@@ -12,7 +12,7 @@ p{
 .whole{
 	display: flex;
 
-	height:99vh;
+	height:100vh;
 	overflow: hidden;
 
 
@@ -33,6 +33,10 @@ p{
 
 	text-align: center;
 
+}
+
+.gallery{
+	height: 100vw;
 }
 
 .gallery img{
