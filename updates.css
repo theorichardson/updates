@@ -11,7 +11,7 @@ p{
 
 .whole{
 	display: flex;
-	position: absolute;
+	position: fixed;
 
 	overflow-y: scroll;
 
@@ -36,8 +36,6 @@ p{
 }
 
 .gallery{
-	height: 100vh;
-	padding-bottom: 5vh;
 }
 
 .gallery img{
