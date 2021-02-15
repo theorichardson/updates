@@ -11,13 +11,9 @@ p{
 
 .whole{
 	display: flex;
-	border:1vw;
-	position: fixed;
-
-	overflow-y: scroll;
-
 
 	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .leftScroll{
