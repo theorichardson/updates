@@ -8,9 +8,8 @@ p{
 }
 
 .whole{
+	height: 99vh;
 	display: flex;
-
-	overflow-y: 0px;
 }
 
 .leftScroll{
