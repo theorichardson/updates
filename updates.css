@@ -27,7 +27,7 @@ p{
 	padding:3vw;
 	padding-bottom:0px;
 
-	background-color: lightgrey;
+	/*background-color: lightgrey;*/
 
 	overflow-y: scroll;
 
@@ -63,3 +63,12 @@ p{
 	text-align: center;
 	
 }
+
+.bottom{
+	height: 5vh;
+}
+
+
+
+
+
