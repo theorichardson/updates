@@ -20,7 +20,7 @@ p{
 
 	padding:2vw;
 
-	background-color: lightgrey;
+	/*background-color: lightgrey;*/
 
 	overflow-y: scroll;
 
@@ -28,21 +28,15 @@ p{
 
 }
 
-.leftGallery img{
+.gallery img{
 	width:100%;
 
 	text-align: center;
+
+	padding-top: 4vw;
+	padding-bottom: 4vw;
 }
 
-
-
-
-
-.rightGallery img{
-	width:20vw;
-
-	text-align: center;
-}
 
 .rightScroll{
 	width:50vw;
@@ -50,7 +44,7 @@ p{
 
 	padding:3vw;
 
-	background-color: grey;
+	/*background-color: grey;*/
 
 	overflow-y: scroll;
 
