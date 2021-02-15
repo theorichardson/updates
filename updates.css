@@ -12,8 +12,7 @@ p{
 .whole{
 	display: flex;
 
-	height:100%;
-	overflow: hidden;
+	overflow-y: scroll;
 
 
 	padding-bottom: 0px;
@@ -50,6 +49,7 @@ p{
 
 
 .rightScroll{
+
 	width:50vw;
 	height: 99vh;
 
@@ -65,7 +65,7 @@ p{
 }
 
 .bottom{
-	height: 5vh;
+	height: 20vh;
 }
 
 
