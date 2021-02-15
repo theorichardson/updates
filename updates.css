@@ -1,7 +1,59 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+p{
+	font-size: 4vw;
+}
+
+.whole{
+	display: flex;
+
+	overflow-y: 0px;
+}
+
 .leftScroll{
-background-color: red;
+
+	width:50vw;
+	height: 99vh;
+
+	padding:2vw;
+
+	background-color: lightgrey;
+
+	overflow-y: scroll;
+
+	text-align: center;
+
+}
+
+.leftGallery img{
+	width:100%;
+
+	text-align: center;
+}
+
+
+
+
+
+.rightGallery img{
+	width:20vw;
+
+	text-align: center;
 }
 
 .rightScroll{
-background-color: blue;
+	width:50vw;
+	height: 99vh;
+
+	padding:3vw;
+
+	background-color: grey;
+
+	overflow-y: scroll;
+
+	text-align: center;
+	
 }
