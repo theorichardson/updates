@@ -11,8 +11,11 @@ p{
 
 .whole{
 	display: flex;
+	height: 99vh;
 
-	overflow-y: none;
+	overflow: hidden;
+
+	padding-bottom: 0px;
 }
 
 .leftScroll{
@@ -20,7 +23,8 @@ p{
 	width:50vw;
 	height: 99vh;
 
-	padding:2vw;
+	padding:3vw;
+	padding-bottom:0px;
 
 	/*background-color: lightgrey;*/
 
@@ -45,6 +49,7 @@ p{
 	height: 99vh;
 
 	padding:3vw;
+	padding-bottom:0px;
 
 	/*background-color: grey;*/
 
