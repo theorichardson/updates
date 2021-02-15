@@ -11,6 +11,7 @@ p{
 
 .whole{
 	display: flex;
+	border:1vw;
 	position: fixed;
 
 	overflow-y: scroll;
