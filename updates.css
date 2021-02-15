@@ -11,7 +11,11 @@ p{
 
 .whole{
 	display: flex;
-	/*overflow: hidden;*/
+
+	height:99vh;
+	overflow: hidden;
+
+
 	padding-bottom: 0px;
 }
 
