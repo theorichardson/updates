@@ -11,6 +11,7 @@ p{
 
 .whole{
 	display: flex;
+	position: absolute;
 
 	overflow-y: scroll;
 
@@ -20,7 +21,7 @@ p{
 
 .leftScroll{
 
-	width:50vw;
+	width:50%;
 	height: 99vh;
 
 	padding:3vw;
@@ -36,6 +37,7 @@ p{
 
 .gallery{
 	height: 100vh;
+	padding-bottom: 5vh;
 }
 
 .gallery img{
@@ -50,7 +52,7 @@ p{
 
 .rightScroll{
 
-	width:50vw;
+	width:50%;
 	height: 99vh;
 
 	padding:3vw;
