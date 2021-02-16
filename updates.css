@@ -7,6 +7,7 @@ body{
 
 p{
 	font-size: 4vw;
+	margin:0px;
 }
 
 .whole{
@@ -75,18 +76,22 @@ p{
 
 
 .left {
-    width: 50%;
-    height: 100vw;
+    width: 42%;
+    height: 99vh;
     float: left;
-    background-color: blue;
+    background-color: grey;
+
+    padding:4vw;
 
     overflow-y: scroll;
 }
 .right {
-    width: 50%;
-    height: 100vw;
+    width: 42%;
+    height: 99vh;
     float: left;
-    background-color: green;
+    background-color: lightgrey;
+
+    padding:4vw;
 
     overflow-y: scroll;
 }
