@@ -66,3 +66,31 @@ p{
 }
 
 
+
+
+
+.container{
+	height: 100%;
+}
+
+
+.left {
+    width: 50%;
+    height: 100vw;
+    float: left;
+    background-color: blue;
+
+    overflow-y: scroll;
+}
+.right {
+    width: 50%;
+    height: 100vw;
+    float: left;
+    background-color: green;
+
+    overflow-y: scroll;
+}
+
+
+
+
