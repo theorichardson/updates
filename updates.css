@@ -84,20 +84,28 @@ p{
 
 
 
+
+
+
+
+
+
+
 .main{
 	display: flex;
 
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 
-	height: 80vh;
+	height: 100%;
+	width:50%;
 
 	position: absolute;
 }
 
 
 .left{
-	background-color: white;
+	background-color: lightgrey;
 
 	display: flex;
 	flex-direction: column;
@@ -146,6 +154,90 @@ p{
 	padding-bottom: 4vw;
 
 	align-self: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+
+
+
+.main{
+	display: flex;
+
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+	height: 100%;
+	width:100%;
+
+	position: absolute;
+}
+
+
+.left{
+	background-color: lightgrey;
+
+	display: flex;
+	flex-direction: column;
+
+	width:50vw;
+	text-align: center;
+
+	overflow-y: scroll;
+}
+
+.left img{
+
+	width:100%;
+
+	text-align: center;
+
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+
+	align-self: center;
+}
+
+
+
+
+
+.right{
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+
+	width:50vw;
+	text-align: center;
+
+	overflow-y: scroll;
+}
+
+.right img{
+
+	width:100%;
+
+	text-align: center;
+
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+
+	align-self: center;
+}
+
+.desktopRight{
+	display: none;
+}
+
+
+
+
+
 }
 
 
