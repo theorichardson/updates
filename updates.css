@@ -16,7 +16,7 @@ p{
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 
-	height: 99vh;
+	height: 99%;
 	overflow-y: hidden;
 }
 
@@ -28,7 +28,7 @@ p{
 	padding:3vw;
 	padding-bottom:0px;
 
-	background-color: lightgrey;
+	background-color: grey;
 
 	overflow-y: scroll;
 
