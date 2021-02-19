@@ -18,6 +18,8 @@ p{
 
 	height: 80vh;
 	overflow-y: hidden;
+
+	position:fixed;
 }
 
 .leftScroll{
@@ -28,7 +30,7 @@ p{
 	padding:3vw;
 	padding-bottom:0px;
 
-	background-color: red;
+	background-color: white;
 
 	overflow-y: scroll;
 
@@ -78,25 +80,68 @@ p{
 }
 
 
-.left {
-    width: 42%;
-    height: 99vh;
-    float: left;
-    background-color: grey;
 
-    padding:4vw;
 
-    overflow-y: scroll;
+.main{
+	display: flex;
+
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+	height: 80vh;
 }
-.right {
-    width: 42%;
-    height: 99vh;
-    float: left;
-    background-color: lightgrey;
 
-    padding:4vw;
 
-    overflow-y: scroll;
+.left{
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+
+	width:50vw;
+	text-align: center;
+
+	overflow-y: scroll;
+}
+
+.left img{
+
+	width:100%;
+
+	text-align: center;
+
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+
+	align-self: center;
+}
+
+
+
+
+
+.right{
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+
+	width:50vw;
+	text-align: center;
+
+	overflow-y: scroll;
+}
+
+.right img{
+
+	width:100%;
+
+	text-align: center;
+
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+
+	align-self: center;
 }
 
 
