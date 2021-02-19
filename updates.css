@@ -100,12 +100,12 @@ p{
 	height: 100%;
 	width:100%;
 
-	position: absolute;
+	position: fixed;
 }
 
 
 .left{
-	background-color: lightgrey;
+	background-color: white;
 
 	display: flex;
 	flex-direction: column;
@@ -161,6 +161,10 @@ p{
 	height: 100%;
 
 	background-color: lightgrey;
+
+	padding:2vw;
+
+	text-align: center;
 }
 
 
@@ -186,7 +190,7 @@ p{
 
 
 .left{
-	background-color: lightgrey;
+	background-color: white;
 
 	display: flex;
 	flex-direction: column;
