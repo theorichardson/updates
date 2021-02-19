@@ -82,6 +82,8 @@ p{
 
 
 
+
+
 .main{
 	display: flex;
 
@@ -89,6 +91,8 @@ p{
 	margin-bottom: 0px;
 
 	height: 80vh;
+
+	position: absolute;
 }
 
 
