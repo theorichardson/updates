@@ -17,6 +17,7 @@ p{
 	margin-bottom: 0px;
 
 	height: 99vh;
+	overflow-y: hidden;
 }
 
 .leftScroll{
