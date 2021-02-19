@@ -98,7 +98,7 @@ p{
 	margin-bottom: 0px;
 
 	height: 100%;
-	width:50%;
+	width:100%;
 
 	position: absolute;
 }
@@ -110,7 +110,7 @@ p{
 	display: flex;
 	flex-direction: column;
 
-	width:50vw;
+	width:25vw;
 	text-align: center;
 
 	overflow-y: scroll;
@@ -138,7 +138,7 @@ p{
 	display: flex;
 	flex-direction: column;
 
-	width:50vw;
+	width:25vw;
 	text-align: center;
 
 	overflow-y: scroll;
@@ -154,6 +154,13 @@ p{
 	padding-bottom: 4vw;
 
 	align-self: center;
+}
+
+.desktopRight{
+	width:50%;
+	height: 100%;
+
+	background-color: lightgrey;
 }
 
 
