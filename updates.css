@@ -172,6 +172,59 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+#turf {
+display: none;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightgreen;
+  margin-top: 20px;
+}
+
+#spriteJump {
+display: none;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightgreen;
+  margin-top: 20px;
+}
+
+#myDiv{
+	height: 100px;
+	width:100px;
+	background-color: red;
+}
+
+button {
+  background-color: white;
+  border: white;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:focus {outline:0;}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px){
 
 

@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<div class="main">
+<div class="main">
 
 	<div class="left">
 
@@ -32,9 +32,9 @@
 
 	<div class="right">
 
-			<img src="images/turf.png" style="width:76%;">
+			<button onclick="myFunctionTurf()"><img src="images/turf.png" style="width:76%;"></button>
 
-			<img src="images/sprite/jumpSm.gif">
+			<button onclick="myFunctionSpriteJump()"><img src="images/sprite/jumpSm.gif"></button>
 
 			<img src="images/inkBleedName.png">
 
@@ -44,13 +44,50 @@
 
 	</div>
 
+
 	<div class="desktopRight">
 		<!--<p><h1>Theo Richardson</h1> is a Toronto-based designer.</p>-->
+
+					<div id="turf">
+					TurfOS.
+					</div>
+
+					<div id="spriteJump">
+					Sprite jump.
+					</div>
 
 	</div>
 
 
 </div>
+
+
+
+
+<!--<script>
+function myFunctionTurf() {
+  var x = document.getElementById("turf");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunctionSpriteJump() {
+  var x = document.getElementById("spriteJump");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+</script>-->
+
+
+
 
 </body>
 </html>
