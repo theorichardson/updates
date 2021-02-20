@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/pgj6oax.css");
+
 body{
 	margin:0px;
 	padding:0px;
@@ -5,9 +7,21 @@ body{
 	overflow-y: none;
 }
 
+h1{
+	font-size: 10vw;
+
+
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 800;
+}
+
 p{
-	font-size: 4vw;
+
+	font-size: 5vw;
 	margin:0px;
+
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-weight: 500;
 }
 
 .whole{
@@ -225,7 +239,7 @@ button:focus {outline:0;}
 
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1500px){
 
 
 
@@ -297,6 +311,36 @@ button:focus {outline:0;}
 .desktopRight{
 	display: none;
 }
+
+
+
+
+
+.bigImage{
+	text-align: center;
+
+	padding: 2vw;
+
+	padding-top: 5vh;
+	padding-bottom: 0vw;
+}
+
+.bigImage img{
+	width:80vw;
+	height: 100%;
+}
+
+.description{
+	text-align: left;
+
+
+	padding:8vw;
+	padding-top: 0vw;
+	padding-bottom: 6vh;
+}
+
+
+
 
 
 
